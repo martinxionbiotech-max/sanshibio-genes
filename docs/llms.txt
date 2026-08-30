@@ -4,17 +4,21 @@
 - [赛鸽飞行基因知识库：八大飞行能力基因检测与选育导航](https://genes.sanshibio.com/): 知识库首页与导航。
 
 ## 飞行基因详解
-- [赛鸽耐力基因 LDHA 详解：乳酸代谢与长途飞行能力](https://genes.sanshibio.com/ldha-endurance/): 深度解析赛鸽耐力基因 LDHA（乳酸脱氢酶 A）：从糖酵解末端酶学机制、乳酸代谢通路、五种同工酶组织分布到基因型解读与耐。
-- [赛鸽归巢基因 DRD4 详解：多巴胺系统与归巢毅力](https://genes.sanshibio.com/drd4-homing/): 深度解析赛鸽归巢基因 DRD4（多巴胺受体 D4）：从 G 蛋白偶联受体信号通路、VNTR 多态性、行为遗传学到归巢毅力。
-- [赛鸽导航基因 CRY1 详解：隐花色素与地磁感知](https://genes.sanshibio.com/cry1-navigation/): 深度解析赛鸽导航基因 CRY1（隐花色素 1）：从蓝光感受器结构、自由基对磁感应假说、生物钟调控到 CRY1 基因型解读。
-- [赛鸽肌力基因 MSTN 详解：肌肉生长抑素与飞行速度](https://genes.sanshibio.com/mstn-muscle/): 深度解析赛鸽肌力基因 MSTN（肌肉生长抑素）：从 TGF-β 信号通路、SMAD 级联反应、负调控肌肉生长机制到 MS。
-- [赛鸽羽翼基因 F-KER 详解：羽角蛋白如何决定羽毛质量](https://genes.sanshibio.com/f-ker-feather/): 赛鸽羽翼基因 F-KER（羽角蛋白 Feather Keratin）深度解读：从 β-角蛋白结构与二硫键交联的分子机制出。
-- [赛鸽学习记忆基因 LRP8 详解：Reelin 通路如何塑造记忆力](https://genes.sanshibio.com/lrp8-memory/): 赛鸽学习记忆基因 LRP8（低密度脂蛋白受体相关蛋白 8，LDL Receptor Related Protein 8）。
-- [赛鸽定向基因 GSR 详解：谷胱甘肽还原酶与阴雨天定向](https://genes.sanshibio.com/gsr-orientation/): 赛鸽定向基因 GSR（谷胱甘肽还原酶 Glutathione Reductase）深度解读：从谷胱甘肽氧化还原循环与抗氧。
-- [赛鸽认知基因 CASK 详解：突触蛋白如何影响学习与智商](https://genes.sanshibio.com/cask-cognition/): 赛鸽认知基因 CASK（钙/钙调素依赖性丝氨酸蛋白激酶）深度解读：从突触形成与神经信号传导的分子机制出发，解析认知学习能。
+- [赛鸽耐力基因 LDHA 详解：乳酸代谢与长途飞行能力](https://genes.sanshibio.com/ldha-endurance/): 深度解析赛鸽耐力基因 LDHA（乳酸脱氢酶 A）：从糖酵解末端酶学机制、乳酸代谢通路、五种同工酶组织分布到基因。
+- [赛鸽归巢基因 DRD4 详解：多巴胺系统与归巢毅力](https://genes.sanshibio.com/drd4-homing/): 深度解析赛鸽归巢基因 DRD4（多巴胺受体 D4）：从 G 蛋白偶联受体信号通路、VNTR 多态性、行为遗传学。
+- [赛鸽导航基因 CRY1 详解：隐花色素与地磁感知](https://genes.sanshibio.com/cry1-navigation/): 深度解析赛鸽导航基因 CRY1（隐花色素 1）：从蓝光感受器结构、自由基对磁感应假说、生物钟调控到 CRY1 。
+- [赛鸽肌力基因 MSTN 详解：肌肉生长抑素与飞行速度](https://genes.sanshibio.com/mstn-muscle/): 深度解析赛鸽肌力基因 MSTN（肌肉生长抑素）：从 TGF-β 信号通路、SMAD 级联反应、负调控肌肉生长机。
+- [赛鸽羽翼基因 F-KER 详解：羽角蛋白如何决定羽毛质量](https://genes.sanshibio.com/f-ker-feather/): 赛鸽羽翼基因 F-KER（羽角蛋白 Feather Keratin）深度解读：从 β-角蛋白结构与二硫键交联的。
+- [赛鸽学习记忆基因 LRP8 详解：Reelin 通路如何塑造记忆力](https://genes.sanshibio.com/lrp8-memory/): 赛鸽学习记忆基因 LRP8（低密度脂蛋白受体相关蛋白 8，LDL Receptor Related Prote。
+- [赛鸽定向基因 GSR 详解：谷胱甘肽还原酶与阴雨天定向](https://genes.sanshibio.com/gsr-orientation/): 赛鸽定向基因 GSR（谷胱甘肽还原酶 Glutathione Reductase）深度解读：从谷胱甘肽氧化还原。
+- [赛鸽认知基因 CASK 详解：突触蛋白如何影响学习与智商](https://genes.sanshibio.com/cask-cognition/): 赛鸽认知基因 CASK（钙/钙调素依赖性丝氨酸蛋白激酶）深度解读：从突触形成与神经信号传导的分子机制出发，解析。
 
 ## 选育实战
-- [速度型 vs 耐力型赛鸽：基因组合选育的科学策略](https://genes.sanshibio.com/speed-vs-endurance/): 从基因层面解读速度型与耐力型赛鸽的差异，解析LDHA、MSTN、CRY1、DRD4等飞行基因如何决定供能方式与肌纤维类型。
-- [赛鸽基因身份证详解：58个SNP位点如何建立唯一身份](https://genes.sanshibio.com/gene-id-card/): 解读赛鸽基因身份证的技术原理与应用价值，说明58个SNP位点二代测序如何为每羽赛鸽建立唯一、可追溯的基因身份档案，覆盖身。
-- [赛鸽遗传学基础：DNA、基因与遗传规律入门](https://genes.sanshibio.com/pigeon-genetics-basics/): 系统讲解赛鸽遗传学基础，从DNA双螺旋结构、基因与染色体、孟德尔遗传规律、显隐性与基因型表型的关系，到SNP单核苷酸多态。
-- [赛鸽基因选育策略：飞行基因组合的科学运用](https://genes.sanshibio.com/breeding-strategy/): 系统讲解赛鸽基因选育策略，说明如何将飞行能力8项基因检测数据与传统训养经验结合，通过建立基因档案、评估天赋、确认血统、健。
+- [速度型 vs 耐力型赛鸽：基因组合选育的科学策略](https://genes.sanshibio.com/speed-vs-endurance/): 从基因层面解读速度型与耐力型赛鸽的差异，解析LDHA、MSTN、CRY1、DRD4等飞行基因如何决定供能方式与。
+- [赛鸽基因身份证详解：58个SNP位点如何建立唯一身份](https://genes.sanshibio.com/gene-id-card/): 解读赛鸽基因身份证的技术原理与应用价值，说明58个SNP位点二代测序如何为每羽赛鸽建立唯一、可追溯的基因身份档。
+- [赛鸽遗传学基础：DNA、基因与遗传规律入门](https://genes.sanshibio.com/pigeon-genetics-basics/): 系统讲解赛鸽遗传学基础，从DNA双螺旋结构、基因与染色体、孟德尔遗传规律、显隐性与基因型表型的关系，到SNP单。
+- [赛鸽基因选育策略：飞行基因组合的科学运用](https://genes.sanshibio.com/breeding-strategy/): 系统讲解赛鸽基因选育策略，说明如何将飞行能力8项基因检测数据与传统训养经验结合，通过建立基因档案、评估天赋、确。
+- [赛鸽血系与基因选育：名血系的基因特征与保种之道](https://genes.sanshibio.com/bloodline-genes/): 赛鸽血系基因深度解析：从詹森、凡龙、利奥、杨阿腾等名血系的特征倾向与遗传规律出发，说明血系基因如何通过基因检测。
+- [不同赛制的赛鸽基因选育策略：公棚赛到超长距离](https://genes.sanshibio.com/race-format-breeding/): 赛制基因选育策略指南：针对公棚赛、俱乐部赛、特比环、超长距离赛等不同赛制的选育侧重，解析各赛制对应的基因组合差。
+- [赛鸽基因检测常见误区：基因=成绩？单基因决定一切？](https://genes.sanshibio.com/gene-test-misconceptions/): 赛鸽基因检测误区盘点：逐一澄清「基因=成绩」「单基因决定」「基因不可变」「检测万能」等常见误解，讲解基因型与表。
+- [赛鸽基因检测报告解读：从报告结构到配对建议](https://genes.sanshibio.com/gene-report-reading/): 赛鸽基因检测报告解读完整指南：逐项拆解报告基本结构、8项飞行能力基因指标（LDHA/DRD4/CRY1/MST。

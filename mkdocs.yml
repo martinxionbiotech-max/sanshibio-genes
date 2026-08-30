@@ -43,6 +43,10 @@ nav:
       - 基因身份证: gene-id-card.md
       - 赛鸽遗传基础: pigeon-genetics-basics.md
       - 组合选育策略: breeding-strategy.md
+      - 血系与基因: bloodline-genes.md
+      - 赛制选育策略: race-format-breeding.md
+      - 检测误区: gene-test-misconceptions.md
+      - 基因报告解读: gene-report-reading.md
 
 markdown_extensions:
   - admonition
