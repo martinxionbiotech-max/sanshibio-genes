@@ -1,0 +1,61 @@
+site_name: 赛鸽飞行基因知识库
+site_url: https://genes.sanshibio.com/
+site_description: 赛鸽飞行能力 8 大基因（LDHA/DRD4/CRY1/MSTN 等）详解与科学选育策略。
+site_author: 河北三狮生物科技有限公司
+copyright: © 2026 河北三狮生物科技有限公司 · 冀ICP备20004219号-1
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色模式
+
+nav:
+  - 首页: index.md
+  - 飞行基因详解:
+      - LDHA 耐力基因: ldha-endurance.md
+      - DRD4 归巢基因: drd4-homing.md
+      - CRY1 导航基因: cry1-navigation.md
+      - MSTN 肌力基因: mstn-muscle.md
+      - F-KER 羽翼基因: f-ker-feather.md
+      - LRP8 学习记忆: lrp8-memory.md
+      - GSR 阴雨天定向: gsr-orientation.md
+      - CASK 认知基因: cask-cognition.md
+  - 选育实战:
+      - 速度 vs 耐力: speed-vs-endurance.md
+      - 基因身份证: gene-id-card.md
+      - 赛鸽遗传基础: pigeon-genetics-basics.md
+      - 组合选育策略: breeding-strategy.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+extra:
+  social:
+    - icon: fontawesome/brands/weixin
+      link: "https://sanshibio.com/"
+      name: 主站
