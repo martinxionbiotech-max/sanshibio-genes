@@ -8,7 +8,7 @@ tags: [赛鸽飞行基因, 飞行能力, 基因检测, 知识库]
 
 > **核心结论**：本知识库系统解读赛鸽飞行能力的 8 大基因（LDHA、DRD4、CRY1、MSTN、F-KER、LRP8、GSR、CASK）及科学选育方法。无论您是速度赛还是耐力赛鸽友，都能在此找到基因机制、选育策略与检测服务的完整指引。
 
-欢迎来到**赛鸽飞行基因知识库**。本知识库由[河北三狮生物科技有限公司](https://sanshibio.com/)整理，围绕[赛鸽飞行能力基因检测](https://sanshibio.com/flight-ability/)的 8 项核心指标，系统讲解每一个基因的分子机制、检测意义与选育应用，帮助鸽友从「凭经验」走向「靠数据」的科学选育。
+欢迎来到**赛鸽飞行基因知识库**。本知识库由[河北三狮生物科技有限公司](https://sanshibio.net/)整理，围绕[赛鸽飞行能力基因检测](https://sanshibio.net/flight-ability/)的 8 项核心指标，系统讲解每一个基因的分子机制、检测意义与选育应用，帮助鸽友从「凭经验」走向「靠数据」的科学选育。
 
 ## 八大飞行能力基因总览
 
@@ -50,20 +50,20 @@ tags: [赛鸽飞行基因, 飞行能力, 基因检测, 知识库]
 - **零基础入门**：先读[赛鸽遗传基础](pigeon-genetics-basics.md)，理解 DNA、基因、染色体与遗传规律，再进入各基因详解
 - **速度赛鸽友**：重点读[MSTN 肌力基因](mstn-muscle.md)与[F-KER 羽翼基因](f-ker-feather.md)，结合[速度 vs 耐力](speed-vs-endurance.md)制定短程选配方案
 - **长程耐力鸽友**：重点读[LDHA 耐力基因](ldha-endurance.md)、[CRY1 导航基因](cry1-navigation.md)与[DRD4 归巢基因](drd4-homing.md)
-- **血统管理者**：先看[基因身份证](gene-id-card.md)，再配合主站[亲子鉴定](https://sanshibio.com/paternity/)建立完整血统档案
+- **血统管理者**：先看[基因身份证](gene-id-card.md)，再配合主站[亲子鉴定](https://sanshibio.net/paternity/)建立完整血统档案
 
 ## 检测服务引导
 
-三狮生物提供一站式[赛鸽飞行能力基因检测](https://sanshibio.com/flight-ability/)服务：拔取 4–6 根带毛囊羽毛即可采样，无需采血，幼鸽即可检测。检测报告覆盖 8 项飞行能力指标并附带育种建议。相关服务：
+三狮生物提供一站式[赛鸽飞行能力基因检测](https://sanshibio.net/flight-ability/)服务：拔取 4–6 根带毛囊羽毛即可采样，无需采血，幼鸽即可检测。检测报告覆盖 8 项飞行能力指标并附带育种建议。相关服务：
 
-- [飞行能力基因检测](https://sanshibio.com/flight-ability/)——8 大飞行基因一站式检测
+- [飞行能力基因检测](https://sanshibio.net/flight-ability/)——8 大飞行基因一站式检测
 - [基因身份证](gene-id-card.md)——个体身份唯一建档
-- [亲子鉴定](https://sanshibio.com/paternity/)——血统精准追溯
-- [病原检测](https://sanshibio.com/virus-detection/)——种鸽健康筛查
+- [亲子鉴定](https://sanshibio.net/paternity/)——血统精准追溯
+- [病原检测](https://sanshibio.net/virus-detection/)——种鸽健康筛查
 
 ## 知识库内容特色
 
-本知识库每一篇基因词条均遵循「机制 → 意义 → 应用」的结构：先讲清基因编码蛋白与分子机制，再说明其对飞行能力的影响，最后给出可落地的选育实操。所有内容由三狮生物技术团队结合[飞行能力基因检测](https://sanshibio.com/flight-ability/)实际检测项目整理，兼顾科普性与专业性。
+本知识库每一篇基因词条均遵循「机制 → 意义 → 应用」的结构：先讲清基因编码蛋白与分子机制，再说明其对飞行能力的影响，最后给出可落地的选育实操。所有内容由三狮生物技术团队结合[飞行能力基因检测](https://sanshibio.net/flight-ability/)实际检测项目整理，兼顾科普性与专业性。
 
 - [血系与基因](bloodline-genes.md)——名血系基因特征倾向
 - [赛制选育策略](race-format-breeding.md)——不同赛制的选配侧重
@@ -93,7 +93,7 @@ tags: [赛鸽飞行基因, 飞行能力, 基因检测, 知识库]
 血统书可被篡改，基因身份证基于 DNA 不可伪造，两者结合才能实现血统可信。
 
 ### 基因检测多久出报告？
-自动化测序流程高效，具体周期以[检测服务](https://sanshibio.com/services/)说明为准。
+自动化测序流程高效，具体周期以[检测服务](https://sanshibio.net/services/)说明为准。
 
 ### 幼鸽能做检测吗？
 可以。幼鸽阶段即可检测，方便提前锁定潜质、从源头管理血统。

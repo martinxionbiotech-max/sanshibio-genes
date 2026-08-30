@@ -39,13 +39,13 @@ tags: [赛制基因选育, 公棚赛, 俱乐部赛, 特比环, 超长距离, 配
 | 特比环（指定距离） | 按距离定向组合 | 500 公里级以 LDHA + DRD4 为主 |
 | 超长距离赛 | LDHA + CRY1 + DRD4 | 耐力 + 导航 + 归巢缺一不可 |
 
-需要说明的是，公棚赛的独特之处在于「统一饲养管理」，鸽子抗病力、抗逆性与稳定发挥的重要性被放大。因此公棚赛选育除了看速度基因，还应结合[病原检测](https://sanshibio.com/virus-detection/)筛查种鸽健康，避免把「弱体质」遗传给后代。
+需要说明的是，公棚赛的独特之处在于「统一饲养管理」，鸽子抗病力、抗逆性与稳定发挥的重要性被放大。因此公棚赛选育除了看速度基因，还应结合[病原检测](https://sanshibio.net/virus-detection/)筛查种鸽健康，避免把「弱体质」遗传给后代。
 
 ## 配对策略：按赛制定制种鸽方案
 
 1. **先明确赛制**：锁定主攻赛事及其距离区间，这是选育的「靶心」。
 2. **反推基因组合**：短程看 MSTN + F-KER，中程看 MSTN + LDHA + DRD4，长程看 LDHA + CRY1 + DRD4。
-3. **检测建档案**：为核心种鸽做[飞行能力基因检测](https://sanshibio.com/flight-ability/)，明确各基因型，建立档案。
+3. **检测建档案**：为核心种鸽做[飞行能力基因检测](https://sanshibio.net/flight-ability/)，明确各基因型，建立档案。
 4. **优势互补配对**：短程赛用「MSTN 优势 × F-KER 优势」配，长程赛用「LDHA 优势 × DRD4/CRY1 优势」配，追求目标组合的强化。
 5. **结合赛绩验证**：记录后代在目标赛制下的表现，与基因型对照，1–2 代后优化配对模型。
 
@@ -109,6 +109,6 @@ tags: [赛制基因选育, 公棚赛, 俱乐部赛, 特比环, 超长距离, 配
 - [赛鸽 — 维基百科](https://en.wikipedia.org/wiki/Racing_pigeon)
 - [选择育种 — 维基百科](https://en.wikipedia.org/wiki/Selective_breeding)
 - [乳酸脱氢酶 — 维基百科](https://en.wikipedia.org/wiki/Lactate_dehydrogenase)
-- [赛鸽飞行能力基因检测 — 三狮生物](https://sanshibio.com/flight-ability/)
+- [赛鸽飞行能力基因检测 — 三狮生物](https://sanshibio.net/flight-ability/)
 
 > *本文内容仅供科普参考，不构成诊断或治疗建议。具体检测与选育方案请咨询兽医或三狮生物技术团队（微信 15612372623 / 邮箱 martin@senobiocorp.com / WhatsApp +86 13323237275）。*

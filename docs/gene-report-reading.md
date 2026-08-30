@@ -68,7 +68,7 @@ tags: [基因检测报告解读, 报告解读, 基因型, 育种建议, 飞行�
 | 补齐某项短板 | 双方该指标均一般 | 引入该指标优良的外血，再回配 |
 | 综合均衡 | 双方各有所长 | 优势互补配对，追求多指标均衡 |
 
-配对前建议为核心种鸽建立[基因身份证](gene-id-card.md)长期存档，并配合[亲子鉴定](https://sanshibio.com/paternity/)确认血统真实性，形成「基因档案 + 血统 + 赛绩」的完整选育闭环。完整方法论参见[基因选育策略](breeding-strategy.md)。
+配对前建议为核心种鸽建立[基因身份证](gene-id-card.md)长期存档，并配合[亲子鉴定](https://sanshibio.net/paternity/)确认血统真实性，形成「基因档案 + 血统 + 赛绩」的完整选育闭环。完整方法论参见[基因选育策略](breeding-strategy.md)。
 
 ## 核心要点
 
@@ -116,7 +116,7 @@ tags: [基因检测报告解读, 报告解读, 基因型, 育种建议, 飞行�
 
 ## 参考资料
 
-- [赛鸽飞行能力基因检测 — 三狮生物](https://sanshibio.com/flight-ability/)
+- [赛鸽飞行能力基因检测 — 三狮生物](https://sanshibio.net/flight-ability/)
 - [赛鸽 — 维基百科](https://en.wikipedia.org/wiki/Racing_pigeon)
 - [乳酸脱氢酶 — 维基百科](https://en.wikipedia.org/wiki/Lactate_dehydrogenase)
 - [DNA 分型 — 维基百科](https://en.wikipedia.org/wiki/DNA_profiling)

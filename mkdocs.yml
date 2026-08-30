@@ -1,5 +1,5 @@
 site_name: 赛鸽飞行基因知识库
-site_url: https://genes.sanshibio.com/
+site_url: https://genes.sanshibio.net/
 site_description: 赛鸽飞行能力 8 大基因（LDHA/DRD4/CRY1/MSTN 等）详解与科学选育策略。
 site_author: 河北三狮生物科技有限公司
 copyright: © 2026 河北三狮生物科技有限公司 · 冀ICP备20004219号-1
@@ -61,5 +61,5 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/weixin
-      link: "https://sanshibio.com/"
+      link: "https://sanshibio.net/"
       name: 主站

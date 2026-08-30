@@ -109,6 +109,6 @@ tags: [基因检测误区, 基因检测, 基因型, 表型, 科学认知]
 - [基因型与表型 — 维基百科](https://en.wikipedia.org/wiki/Genotype%E2%80%93phenotype_distinction)
 - [遗传力 — 维基百科](https://en.wikipedia.org/wiki/Heritability)
 - [赛鸽 — 维基百科](https://en.wikipedia.org/wiki/Racing_pigeon)
-- [赛鸽飞行能力基因检测 — 三狮生物](https://sanshibio.com/flight-ability/)
+- [赛鸽飞行能力基因检测 — 三狮生物](https://sanshibio.net/flight-ability/)
 
 > *本文内容仅供科普参考，不构成诊断或治疗建议。具体检测与选育方案请咨询兽医或三狮生物技术团队（微信 15612372623 / 邮箱 martin@senobiocorp.com / WhatsApp +86 13323237275）。*
