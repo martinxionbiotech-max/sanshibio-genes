@@ -77,3 +77,40 @@
   }
   </script>
 {% endblock %}
+{% block footer %}
+  {{ super() }}
+  <div class="ssb-network md-typeset">
+    <div class="md-grid ssb-network__grid">
+      <div class="ssb-network__col">
+        <span class="ssb-network__title">三狮生物 · 主站服务</span>
+        <ul>
+          <li><a href="https://sanshibio.net/">主站首页</a></li>
+          <li><a href="https://sanshibio.net/virus-detection/">赛鸽病毒检测</a></li>
+          <li><a href="https://sanshibio.net/flight-ability/">飞行能力基因检测</a></li>
+          <li><a href="https://sanshibio.net/paternity/">亲子鉴定</a></li>
+          <li><a href="https://sanshibio.net/services/">检测服务</a></li>
+          <li><a href="https://sanshibio.net/products/">产品中心</a></li>
+          <li><a href="https://sanshibio.net/blog/">知识库</a></li>
+          <li><a href="https://sanshibio.net/about/">关于三狮</a></li>
+        </ul>
+      </div>
+      <div class="ssb-network__col">
+        <span class="ssb-network__title">三狮生物 · 旗下知识库</span>
+        <ul>
+          <li><a href="https://pathogens.sanshibio.net/">病原体百科 · 赛鸽常见病原防控</a></li>
+          <li><a href="https://genes.sanshibio.net/">飞行基因库 · 飞行能力基因详解</a></li>
+          <li><a href="https://breeding.sanshibio.net/">育种血统库 · 血统鉴定与育种</a></li>
+          <li><a href="https://lab.sanshibio.net/">检测实验室 · 分子检测技术</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <style>
+    .ssb-network { background: #f4f6f8; border-top: 1px solid #e2e6ea; font-size: .8rem; }
+    .ssb-network__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.25rem 2rem; padding: 1.25rem 0; }
+    .ssb-network__title { display: block; margin-bottom: .6rem; font-weight: 700; color: #223; }
+    .ssb-network ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; }
+    .ssb-network a { color: #556; }
+    .ssb-network a:hover { color: #0b6e5a; }
+  </style>
+{% endblock %}
