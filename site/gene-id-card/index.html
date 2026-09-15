@@ -1,0 +1,1382 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="解读赛鸽基因身份证的技术原理与应用价值，说明58个SNP位点二代测序如何为每羽赛鸽建立唯一、可追溯的基因身份档案，覆盖身份唯一性、防作弊、血统管理与交易凭证四大核心用途。">
+      
+      
+        <meta name="author" content="河北三狮生物科技有限公司">
+      
+      
+        <link rel="canonical" href="https://genes.sanshibio.net/gene-id-card/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.2.11">
+    
+    
+      
+        <title>赛鸽基因身份证详解：58个SNP位点如何建立唯一身份 - 赛鸽飞行基因知识库</title>
+      
+    
+    
+  
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c5ef100.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+  <style>
+    .md-search, .md-search__overlay { display: none !important; }
+  </style>
+
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+  
+  
+  
+  
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://sanshibio.net/#organization",
+    "name": "河北三狮生物科技有限公司",
+    "alternateName": ["三狮生物", "Sanshi Bio", "Three Lions Bio"],
+    "url": "https://sanshibio.net/",
+    "logo": "https://sanshibio.net/images/logo.png",
+    "foundingDate": "2018",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "石家庄市",
+      "addressRegion": "河北省",
+      "addressCountry": "CN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+86-156-1237-2623",
+      "contactType": "customer service",
+      "email": "martin@senobiocorp.com"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://genes.sanshibio.net/#website",
+    "url": "https://genes.sanshibio.net/",
+    "name": "赛鸽飞行基因知识库",
+    "publisher": {"@id": "https://sanshibio.net/#organization"},
+    "inLanguage": "zh-CN"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": "https://genes.sanshibio.net/gene-id-card/#webpage",
+    "url": "https://genes.sanshibio.net/gene-id-card/",
+    "name": "基因身份证",
+    "description": "解读赛鸽基因身份证的技术原理与应用价值，说明58个SNP位点二代测序如何为每羽赛鸽建立唯一、可追溯的基因身份档案，覆盖身份唯一性、防作弊、血统管理与交易凭证四大核心用途。",
+    "isPartOf": {"@id": "https://genes.sanshibio.net/#website"},
+    "about": {"@id": "https://sanshibio.net/#organization"},
+    "author": {"@type": "Organization", "name": "三狮生物分子诊断技术团队", "url": "https://sanshibio.net/"},
+    "publisher": {"@id": "https://sanshibio.net/#organization"},
+    "datePublished": "2026-08-31",
+    "dateModified": "2026-08-31",
+    "inLanguage": "zh-CN"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://genes.sanshibio.net/"}
+      ,{"@type": "ListItem", "position": 2, "name": "基因身份证"}
+    ]
+  }
+  </script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#58snp" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="赛鸽飞行基因知识库" class="md-header__button md-logo" aria-label="赛鸽飞行基因知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            赛鸽飞行基因知识库
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              赛鸽基因身份证详解：58个SNP位点如何建立唯一身份
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent=""  aria-label="切换至深色模式"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="切换至深色模式" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent=""  aria-label="切换至浅色模式"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="切换至浅色模式" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="赛鸽飞行基因知识库" class="md-nav__button md-logo" aria-label="赛鸽飞行基因知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    赛鸽飞行基因知识库
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        首页
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          飞行基因详解
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="飞行基因详解" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          飞行基因详解
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ldha-endurance/" class="md-nav__link">
+        LDHA 耐力基因
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drd4-homing/" class="md-nav__link">
+        DRD4 归巢基因
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cry1-navigation/" class="md-nav__link">
+        CRY1 导航基因
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mstn-muscle/" class="md-nav__link">
+        MSTN 肌力基因
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../f-ker-feather/" class="md-nav__link">
+        F-KER 羽翼基因
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lrp8-memory/" class="md-nav__link">
+        LRP8 学习记忆
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gsr-orientation/" class="md-nav__link">
+        GSR 阴雨天定向
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cask-cognition/" class="md-nav__link">
+        CASK 认知基因
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          选育实战
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="选育实战" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          选育实战
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../speed-vs-endurance/" class="md-nav__link">
+        速度 vs 耐力
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          基因身份证
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        基因身份证
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    什么是赛鸽基因身份证？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#snp" class="md-nav__link">
+    分子机制深挖：SNP 为何能唯一识别个体
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    基因身份证的核心价值
+  </a>
+  
+    <nav class="md-nav" aria-label="基因身份证的核心价值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 身份唯一性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 防作弊、防顶替
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 血统管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 交易凭证
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vs-ab" class="md-nav__link">
+    基因身份证 vs AB 鸽检测
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    实操步骤：如何建立基因档案
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    核心要点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    飞行能力基因实体速查
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    常见问题
+  </a>
+  
+    <nav class="md-nav" aria-label="常见问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    基因身份证和血统书有什么区别？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    基因身份证和足环有什么区别？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    基因身份证和亲子鉴定有什么区别？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snp_1" class="md-nav__link">
+    SNP 位点为什么能唯一识别个体？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    基因身份证多久有效？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    幼鸽能做基因身份证吗？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    基因身份证能用于比赛核验吗？
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    参考资料
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pigeon-genetics-basics/" class="md-nav__link">
+        赛鸽遗传基础
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../breeding-strategy/" class="md-nav__link">
+        组合选育策略
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bloodline-genes/" class="md-nav__link">
+        血系与基因
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../race-format-breeding/" class="md-nav__link">
+        赛制选育策略
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gene-test-misconceptions/" class="md-nav__link">
+        检测误区
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gene-report-reading/" class="md-nav__link">
+        基因报告解读
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    什么是赛鸽基因身份证？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#snp" class="md-nav__link">
+    分子机制深挖：SNP 为何能唯一识别个体
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    基因身份证的核心价值
+  </a>
+  
+    <nav class="md-nav" aria-label="基因身份证的核心价值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 身份唯一性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 防作弊、防顶替
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 血统管理
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 交易凭证
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vs-ab" class="md-nav__link">
+    基因身份证 vs AB 鸽检测
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    实操步骤：如何建立基因档案
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    核心要点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    飞行能力基因实体速查
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    常见问题
+  </a>
+  
+    <nav class="md-nav" aria-label="常见问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    基因身份证和血统书有什么区别？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    基因身份证和足环有什么区别？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    基因身份证和亲子鉴定有什么区别？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snp_1" class="md-nav__link">
+    SNP 位点为什么能唯一识别个体？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    基因身份证多久有效？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    幼鸽能做基因身份证吗？
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    基因身份证能用于比赛核验吗？
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    参考资料
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="58snp">赛鸽基因身份证详解：58个SNP位点如何建立唯一身份<a class="headerlink" href="#58snp" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><strong>核心结论</strong>：赛鸽基因身份证通过 58 个 SNP 位点为每羽赛鸽建立唯一、可追溯的基因身份档案。它基于 DNA 不可伪造、不可顶替的特性，是足环与血统书无法替代的「基因指纹」。本文详解 SNP 个体识别原理、核心价值与应用场景。</p>
+</blockquote>
+<p>就像人类的身份证一样，赛鸽也需要一张「独一无二」的身份证明。<strong>赛鸽基因身份证</strong>通过 DNA 检测，为每羽赛鸽建立唯一、可追溯的基因身份档案。它与足环、血统书最大的区别在于：前者是「佩戴身份」，后者是「基因身份」，二者结合才能真正实现身份安全。</p>
+<h2 id="_1">什么是赛鸽基因身份证？<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>赛鸽基因身份证是<a href="https://sanshibio.net/">三狮生物</a>基于<strong>二代基因测序技术</strong>开发的个体识别服务，核心技术特点如下：</p>
+<table>
+<thead>
+<tr>
+<th>特点</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测技术</td>
+<td>二代基因测序，快速、精准、高效</td>
+</tr>
+<tr>
+<td>基因位点</td>
+<td>58 个独家 SNP 位点（57 个 SNP 位点 + 性别位点）</td>
+</tr>
+<tr>
+<td>检测流程</td>
+<td>自动化，完整羽毛样本放入设备即可完成</td>
+</tr>
+<tr>
+<td>报告速度</td>
+<td>出具报告更快</td>
+</tr>
+</tbody>
+</table>
+<h2 id="snp">分子机制深挖：SNP 为何能唯一识别个体<a class="headerlink" href="#snp" title="Permanent link">&para;</a></h2>
+<p>SNP（单核苷酸多态性，Single Nucleotide Polymorphism）指基因组中单个碱基位点上的变异。理论上，每个 SNP 位点有 2–3 种等位形式，58 个 SNP 位点的组合数量极其庞大，任意两羽鸽完全相同组合的概率极低，从而形成独一无二的「基因指纹」。这正是<a href="../pigeon-genetics-basics/">赛鸽遗传学基础</a>中基因型多态性的直接应用。</p>
+<p>与「赛鸽飞行能力基因检测」关注「这羽鸽飞得好不好」不同，基因身份证关注「这羽鸽是谁」。前者解读功能基因型，后者锁定个体身份，两者可共用同一份 DNA 样本。</p>
+<h2 id="_2">基因身份证的核心价值<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="1">1. 身份唯一性<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<p>每羽赛鸽的 58 个 SNP 位点组合几乎独一无二，形成「基因指纹」，杜绝同名混淆。</p>
+<h3 id="2">2. 防作弊、防顶替<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<p>在赛鸽比赛中，基因身份证可有效防止「AB 鸽」（同名顶替鸽）作弊，保障赛事公平。</p>
+<h3 id="3">3. 血统管理<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<p>为种鸽建立基因档案，配合<a href="https://sanshibio.net/paternity/">亲子鉴定</a>实现血统的精准追溯与管理。</p>
+<h3 id="4">4. 交易凭证<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<p>引种交易时，基因身份证可作为鸽只身份与血统的可信凭证，降低交易风险。</p>
+<h2 id="vs-ab">基因身份证 vs AB 鸽检测<a class="headerlink" href="#vs-ab" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>基因身份证</th>
+<th>AB 鸽检测</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>目的</td>
+<td>建立唯一身份档案</td>
+<td>识别同名顶替</td>
+</tr>
+<tr>
+<td>位点</td>
+<td>58 个 SNP 位点</td>
+<td>58 个基因位点</td>
+</tr>
+<tr>
+<td>应用</td>
+<td>长期身份管理</td>
+<td>赛前身份核验</td>
+</tr>
+</tbody>
+</table>
+<p>两者相辅相成：先建档、后核验。详见<a href="https://sanshibio.net/services/">检测服务</a>。</p>
+<h2 id="_3">实操步骤：如何建立基因档案<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>采样</strong>：拔取带毛囊的羽毛，装入采样袋（无需采血，幼鸽即可采样）</li>
+<li><strong>送检</strong>：样本寄送或交至<a href="https://sanshibio.net/">三狮生物</a>实验室</li>
+<li><strong>测序</strong>：自动化完成 58 个 SNP 位点的二代测序</li>
+<li><strong>建档</strong>：领取基因身份证报告，为种鸽与重要赛鸽长期存档</li>
+</ol>
+<blockquote>
+<p>💡 提示：建议为所有种鸽与重要赛鸽建立基因身份证，形成完整的鸽群基因档案库，并与<a href="https://sanshibio.net/flight-ability/">飞行能力基因检测</a>结果整合管理。</p>
+</blockquote>
+<h2 id="_4">核心要点<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<ol>
+<li>58 个 SNP 位点构成「基因指纹」——每羽赛鸽的身份几乎独一无二。</li>
+<li>不可伪造、不可顶替——基因身份基于 DNA，远超足环的物理防伪。</li>
+<li>四大核心价值——身份唯一性、防作弊、血统管理、交易凭证。</li>
+<li>与 AB 鸽检测相辅相成——一个建档，一个核验。</li>
+<li>建议全群建档——种鸽与重要赛鸽都应建立基因档案。</li>
+</ol>
+<h2 id="_5">飞行能力基因实体速查<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>基因</th>
+<th>中文名</th>
+<th>英文全称</th>
+<th>检测意义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LDHA</td>
+<td>乳酸脱氢酶 A</td>
+<td>Lactate Dehydrogenase A</td>
+<td>耐力（乳酸代谢）</td>
+</tr>
+<tr>
+<td>DRD4</td>
+<td>多巴胺受体 D4</td>
+<td>Dopamine Receptor D4</td>
+<td>归巢毅力</td>
+</tr>
+<tr>
+<td>CRY1</td>
+<td>隐花色素 1</td>
+<td>Cryptochrome 1</td>
+<td>导航定向</td>
+</tr>
+<tr>
+<td>MSTN</td>
+<td>肌肉生长抑素</td>
+<td>Myostatin</td>
+<td>肌力爆发</td>
+</tr>
+<tr>
+<td>F-KER</td>
+<td>羽角蛋白</td>
+<td>Feather Keratin</td>
+<td>羽翼质量</td>
+</tr>
+<tr>
+<td>LRP8</td>
+<td>低密度脂蛋白受体相关蛋白 8</td>
+<td>LDL Receptor Related Protein 8</td>
+<td>学习记忆</td>
+</tr>
+<tr>
+<td>GSR</td>
+<td>谷胱甘肽还原酶</td>
+<td>Glutathione Reductase</td>
+<td>阴雨天定向</td>
+</tr>
+<tr>
+<td>CASK</td>
+<td>钙/钙调素依赖性丝氨酸蛋白激酶</td>
+<td>Calcium/Calmodulin-Dependent Serine Protein Kinase</td>
+<td>认知智商</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6">常见问题<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h3 id="_7">基因身份证和血统书有什么区别？<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>血统书记录的是谱系与赛绩，可被篡改或造假；基因身份证是 DNA 层面的身份档案，不可伪造、不可顶替。两者结合才能实现血统的「可追溯 + 可信」。</p>
+<h3 id="_8">基因身份证和足环有什么区别？<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>足环是「佩戴身份」，可被更换或造假；基因身份证是「基因身份」，基于 DNA 不可伪造、不可顶替。两者结合才能实现真正的身份安全。</p>
+<h3 id="_9">基因身份证和亲子鉴定有什么区别？<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<p>基因身份证回答「这羽鸽是谁」，亲子鉴定回答「这羽鸽的父母是谁」。两者可配合使用，建立完整的血统管理体系。详见<a href="https://sanshibio.net/paternity/">亲子鉴定</a>。</p>
+<h3 id="snp_1">SNP 位点为什么能唯一识别个体？<a class="headerlink" href="#snp_1" title="Permanent link">&para;</a></h3>
+<p>58 个 SNP 位点的组合数量极其庞大，任意两羽鸽完全相同组合的概率极低，从而形成独一无二的「基因指纹」。原理详见<a href="../pigeon-genetics-basics/">赛鸽遗传学基础</a>。</p>
+<h3 id="_10">基因身份证多久有效？<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p>一旦建立长期有效，无需更新。鸽子的基因型终身不变，基因身份证可终身使用。</p>
+<h3 id="_11">幼鸽能做基因身份证吗？<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p>可以。羽毛即可提取 DNA，幼鸽阶段即可建档，方便从源头进行血统管理。</p>
+<h3 id="_12">基因身份证能用于比赛核验吗？<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<p>可以。赛前采血或采羽核验，与档案比对即可识别是否「同名顶替」，是 AB 鸽检测的核心应用场景。</p>
+<h2 id="_13">参考资料<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Single-nucleotide_polymorphism">单核苷酸多态性 — 维基百科</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DNA_profiling">DNA 分型 — 维基百科</a></li>
+</ul>
+<blockquote>
+<p><em>本文内容仅供科普参考，不构成诊断或治疗建议。具体检测与防控方案请咨询兽医或三狮生物技术团队（微信 15612372623 / 邮箱 martin@senobiocorp.com）。</em></p>
+</blockquote>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            回到页面顶部
+          </a>
+        
+      </main>
+      
+  
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="页脚">
+      
+        
+        <a href="../speed-vs-endurance/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 速度 vs 耐力" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              速度 vs 耐力
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../pigeon-genetics-basics/" class="md-footer__link md-footer__link--next" aria-label="下一页: 赛鸽遗传基础" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              赛鸽遗传基础
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 河北三狮生物科技有限公司 · 冀ICP备20004219号-1
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    <a href="https://sanshibio.net/" target="_blank" rel="noopener" title="主站" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M385.2 167.6c6.4 0 12.6.3 18.8 1.1C387.4 90.3 303.3 32 207.7 32 100.5 32 13 104.8 13 197.4c0 53.4 29.3 97.5 77.9 131.6l-19.3 58.6 68-34.1c24.4 4.8 43.8 9.7 68.2 9.7 6.2 0 12.1-.3 18.3-.8-4-12.9-6.2-26.6-6.2-40.8-.1-84.9 72.9-154 165.3-154zm-104.5-52.9c14.5 0 24.2 9.7 24.2 24.4 0 14.5-9.7 24.2-24.2 24.2-14.8 0-29.3-9.7-29.3-24.2.1-14.7 14.6-24.4 29.3-24.4zm-136.4 48.6c-14.5 0-29.3-9.7-29.3-24.2 0-14.8 14.8-24.4 29.3-24.4 14.8 0 24.4 9.7 24.4 24.4 0 14.6-9.6 24.2-24.4 24.2zM563 319.4c0-77.9-77.9-141.3-165.4-141.3-92.7 0-165.4 63.4-165.4 141.3S305 460.7 397.6 460.7c19.3 0 38.9-5.1 58.6-9.9l53.4 29.3-14.8-48.6C534 402.1 563 363.2 563 319.4zm-219.1-24.5c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.8 0 24.4 9.7 24.4 19.3 0 10-9.7 19.6-24.4 19.6zm107.1 0c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.5 0 24.4 9.7 24.4 19.3.1 10-9.9 19.6-24.4 19.6z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+  <div class="ssb-network md-typeset">
+    <div class="md-grid ssb-network__grid">
+      <div class="ssb-network__col">
+        <span class="ssb-network__title">三狮生物 · 主站服务</span>
+        <ul>
+          <li><a href="https://sanshibio.net/">主站首页</a></li>
+          <li><a href="https://sanshibio.net/virus-detection/">赛鸽病毒检测</a></li>
+          <li><a href="https://sanshibio.net/flight-ability/">飞行能力基因检测</a></li>
+          <li><a href="https://sanshibio.net/paternity/">亲子鉴定</a></li>
+          <li><a href="https://sanshibio.net/services/">检测服务</a></li>
+          <li><a href="https://sanshibio.net/products/">产品中心</a></li>
+          <li><a href="https://sanshibio.net/blog/">知识库</a></li>
+          <li><a href="https://sanshibio.net/about/">关于三狮</a></li>
+        </ul>
+      </div>
+      <div class="ssb-network__col">
+        <span class="ssb-network__title">三狮生物 · 旗下知识库</span>
+        <ul>
+          <li><a href="https://pathogens.sanshibio.net/">病原体百科 · 赛鸽常见病原防控</a></li>
+          <li><a href="https://genes.sanshibio.net/">飞行基因库 · 飞行能力基因详解</a></li>
+          <li><a href="https://breeding.sanshibio.net/">育种血统库 · 血统鉴定与育种</a></li>
+          <li><a href="https://lab.sanshibio.net/">检测实验室 · 分子检测技术</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <style>
+    .ssb-network { background: #f4f6f8; border-top: 1px solid #e2e6ea; font-size: .8rem; }
+    .ssb-network__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.25rem 2rem; padding: 1.25rem 0; }
+    .ssb-network__title { display: block; margin-bottom: .6rem; font-weight: 700; color: #223; }
+    .ssb-network ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; }
+    .ssb-network a { color: #556; }
+    .ssb-network a:hover { color: #0b6e5a; }
+  </style>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      
+      {
+        "@type": "Question",
+        "name": "\u57fa\u56e0\u8eab\u4efd\u8bc1\u548c\u8840\u7edf\u4e66\u6709\u4ec0\u4e48\u533a\u522b\uff1f",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "\u8840\u7edf\u4e66\u8bb0\u5f55\u7684\u662f\u8c31\u7cfb\u4e0e\u8d5b\u7ee9\uff0c\u53ef\u88ab\u7be1\u6539\u6216\u9020\u5047\uff1b\u57fa\u56e0\u8eab\u4efd\u8bc1\u662f DNA \u5c42\u9762\u7684\u8eab\u4efd\u6863\u6848\uff0c\u4e0d\u53ef\u4f2a\u9020\u3001\u4e0d\u53ef\u9876\u66ff\u3002\u4e24\u8005\u7ed3\u5408\u624d\u80fd\u5b9e\u73b0\u8840\u7edf\u7684\u300c\u53ef\u8ffd\u6eaf + \u53ef\u4fe1\u300d\u3002"
+        }
+      },
+      
+      {
+        "@type": "Question",
+        "name": "\u57fa\u56e0\u8eab\u4efd\u8bc1\u548c\u8db3\u73af\u6709\u4ec0\u4e48\u533a\u522b\uff1f",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "\u8db3\u73af\u662f\u300c\u4f69\u6234\u8eab\u4efd\u300d\uff0c\u53ef\u88ab\u66f4\u6362\u6216\u9020\u5047\uff1b\u57fa\u56e0\u8eab\u4efd\u8bc1\u662f\u300c\u57fa\u56e0\u8eab\u4efd\u300d\uff0c\u57fa\u4e8e DNA \u4e0d\u53ef\u4f2a\u9020\u3001\u4e0d\u53ef\u9876\u66ff\u3002\u4e24\u8005\u7ed3\u5408\u624d\u80fd\u5b9e\u73b0\u771f\u6b63\u7684\u8eab\u4efd\u5b89\u5168\u3002"
+        }
+      },
+      
+      {
+        "@type": "Question",
+        "name": "\u57fa\u56e0\u8eab\u4efd\u8bc1\u548c\u4eb2\u5b50\u9274\u5b9a\u6709\u4ec0\u4e48\u533a\u522b\uff1f",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "\u57fa\u56e0\u8eab\u4efd\u8bc1\u56de\u7b54\u300c\u8fd9\u7fbd\u9e3d\u662f\u8c01\u300d\uff0c\u4eb2\u5b50\u9274\u5b9a\u56de\u7b54\u300c\u8fd9\u7fbd\u9e3d\u7684\u7236\u6bcd\u662f\u8c01\u300d\u3002\u4e24\u8005\u53ef\u914d\u5408\u4f7f\u7528\uff0c\u5efa\u7acb\u5b8c\u6574\u7684\u8840\u7edf\u7ba1\u7406\u4f53\u7cfb\u3002\u8be6\u89c1\u4eb2\u5b50\u9274\u5b9a\u3002"
+        }
+      },
+      
+      {
+        "@type": "Question",
+        "name": "SNP \u4f4d\u70b9\u4e3a\u4ec0\u4e48\u80fd\u552f\u4e00\u8bc6\u522b\u4e2a\u4f53\uff1f",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "58 \u4e2a SNP \u4f4d\u70b9\u7684\u7ec4\u5408\u6570\u91cf\u6781\u5176\u5e9e\u5927\uff0c\u4efb\u610f\u4e24\u7fbd\u9e3d\u5b8c\u5168\u76f8\u540c\u7ec4\u5408\u7684\u6982\u7387\u6781\u4f4e\uff0c\u4ece\u800c\u5f62\u6210\u72ec\u4e00\u65e0\u4e8c\u7684\u300c\u57fa\u56e0\u6307\u7eb9\u300d\u3002\u539f\u7406\u8be6\u89c1\u8d5b\u9e3d\u9057\u4f20\u5b66\u57fa\u7840\u3002"
+        }
+      },
+      
+      {
+        "@type": "Question",
+        "name": "\u57fa\u56e0\u8eab\u4efd\u8bc1\u591a\u4e45\u6709\u6548\uff1f",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "\u4e00\u65e6\u5efa\u7acb\u957f\u671f\u6709\u6548\uff0c\u65e0\u9700\u66f4\u65b0\u3002\u9e3d\u5b50\u7684\u57fa\u56e0\u578b\u7ec8\u8eab\u4e0d\u53d8\uff0c\u57fa\u56e0\u8eab\u4efd\u8bc1\u53ef\u7ec8\u8eab\u4f7f\u7528\u3002"
+        }
+      },
+      
+      {
+        "@type": "Question",
+        "name": "\u5e7c\u9e3d\u80fd\u505a\u57fa\u56e0\u8eab\u4efd\u8bc1\u5417\uff1f",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "\u53ef\u4ee5\u3002\u7fbd\u6bdb\u5373\u53ef\u63d0\u53d6 DNA\uff0c\u5e7c\u9e3d\u9636\u6bb5\u5373\u53ef\u5efa\u6863\uff0c\u65b9\u4fbf\u4ece\u6e90\u5934\u8fdb\u884c\u8840\u7edf\u7ba1\u7406\u3002"
+        }
+      },
+      
+      {
+        "@type": "Question",
+        "name": "\u57fa\u56e0\u8eab\u4efd\u8bc1\u80fd\u7528\u4e8e\u6bd4\u8d5b\u6838\u9a8c\u5417\uff1f",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "\u53ef\u4ee5\u3002\u8d5b\u524d\u91c7\u8840\u6216\u91c7\u7fbd\u6838\u9a8c\uff0c\u4e0e\u6863\u6848\u6bd4\u5bf9\u5373\u53ef\u8bc6\u522b\u662f\u5426\u300c\u540c\u540d\u9876\u66ff\u300d\uff0c\u662f AB \u9e3d\u68c0\u6d4b\u7684\u6838\u5fc3\u5e94\u7528\u573a\u666f\u3002"
+        }
+      }
+      
+    ]
+  }
+  </script>
+  
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "navigation.sections", "navigation.indexes", "content.code.copy"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.748e2769.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -61,8 +61,8 @@
     "about": {"@id": "https://sanshibio.net/#organization"},
     {% if is_article %}"author": {"@type": "Organization", "name": "三狮生物分子诊断技术团队", "url": "https://sanshibio.net/"},
     "publisher": {"@id": "https://sanshibio.net/#organization"},
-    "datePublished": "2026-08-30",
-    "dateModified": "2026-08-30",{% endif %}
+    "datePublished": "{{ page.meta.date or '2026-08-31' }}",
+    "dateModified": "{{ page.meta.date or '2026-08-31' }}",{% endif %}
     "inLanguage": "zh-CN"
   }
   </script>
@@ -113,4 +113,24 @@
     .ssb-network a { color: #556; }
     .ssb-network a:hover { color: #0b6e5a; }
   </style>
+  {% if page and page.meta and page.meta.faq %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in page.meta.faq %}
+      {
+        "@type": "Question",
+        "name": {{ item.q | tojson }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ item.a | tojson }}
+        }
+      }{{ "," if not loop.last else "" }}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
 {% endblock %}
