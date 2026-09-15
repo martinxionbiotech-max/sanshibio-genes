@@ -48,6 +48,27 @@ nav:
       - 检测误区: gene-test-misconceptions.md
       - 基因报告解读: gene-report-reading.md
 
+  - English:
+      - Home: en/index.md
+      - Flight Genes:
+          - LDHA (Endurance): en/ldha-endurance.md
+          - DRD4 (Homing): en/drd4-homing.md
+          - CRY1 (Navigation): en/cry1-navigation.md
+          - MSTN (Muscle): en/mstn-muscle.md
+          - F-KER (Feather): en/f-ker-feather.md
+          - LRP8 (Learning & Memory): en/lrp8-memory.md
+          - GSR (Rain Orientation): en/gsr-orientation.md
+          - CASK (Cognition): en/cask-cognition.md
+      - Breeding Practice:
+          - Speed vs Endurance: en/speed-vs-endurance.md
+          - Genetic ID: en/gene-id-card.md
+          - Genetics Basics: en/pigeon-genetics-basics.md
+          - Combination Breeding: en/breeding-strategy.md
+          - Bloodlines & Genes: en/bloodline-genes.md
+          - Race-Format Selection: en/race-format-breeding.md
+          - Testing Myths: en/gene-test-misconceptions.md
+          - Report Interpretation: en/gene-report-reading.md
+
 markdown_extensions:
   - admonition
   - tables

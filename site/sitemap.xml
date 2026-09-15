@@ -3,86 +3,137 @@
     <url>
          <loc>https://genes.sanshibio.net/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/bloodline-genes/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/breeding-strategy/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/cask-cognition/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/cry1-navigation/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/drd4-homing/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/f-ker-feather/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/gene-id-card/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/gene-report-reading/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/gene-test-misconceptions/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/gsr-orientation/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/ldha-endurance/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/lrp8-memory/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/mstn-muscle/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/pigeon-genetics-basics/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/race-format-breeding/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://genes.sanshibio.net/speed-vs-endurance/</loc>
          <lastmod>2026-09-15</lastmod>
-         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/bloodline-genes/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/breeding-strategy/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/cask-cognition/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/cry1-navigation/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/drd4-homing/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/f-ker-feather/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/gene-id-card/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/gene-report-reading/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/gene-test-misconceptions/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/gsr-orientation/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/ldha-endurance/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/lrp8-memory/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/mstn-muscle/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/pigeon-genetics-basics/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/race-format-breeding/</loc>
+         <lastmod>2026-09-15</lastmod>
+    </url>
+    <url>
+         <loc>https://genes.sanshibio.net/en/speed-vs-endurance/</loc>
+         <lastmod>2026-09-15</lastmod>
     </url>
 </urlset>
